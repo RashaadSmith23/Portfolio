@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Page | R.S Designs</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="assets/R.S Logo Transparent.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <img src="assets/R.S Logo Transparent.png" alt="">
+    </div>
+    <i class="ri-menu-line" onclick="openMenu()"></i>
+    <ul>
+      <i class="ri-close-large-line" onclick="closeMenu()"></i>     
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html">Features</a></li>
+      <li><a href="index.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="#section3">About</a></li>
+    </ul>
+    <button class="btn">Hire Me</button>
+  </nav>
+
+  <section class="container contact-container">
+    <span class="blur"></span>
+    <span class="blur"></span>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Samual Jackson">
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="SSpongebob@gmail.com">
+      <br>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required rows="8" placeholder="Your Message here"></textarea>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="form-message" class="message"></div>
+  </section>
+
+  <footer class="container" id="section3">
+    <span class="blur"></span>
+    <span class="blur"></span>
+    <div class="column">
+      <div class="logo">
+        <img src="assets/R.S Logo Transparent.png">
+      </div>
+      <p>Follow Me On My Socials For More:</p>
+      <div class="socials">
+        <a href="#"><i class="ri-youtube-line"></i></a>
+        <a href="https://github.com/RashaadSmith23" target="_blank"><i class="ri-github-line"></i></a>
+        <a href="#"><i class="ri-instagram-line"></i></a>
+      </div>
+    </div>
+    <div class="column">
+      <h4>Services</h4>
+      <a href="#">Web Design</a>
+      <a href="#">Video Editor</a>
+      <a href="#">Image Minipulation</a>
+    </div>
+    <div class="column">
+      <h4>About</h4>
+      <a href="https://github.com/RashaadSmith23" target="_blank">GitHub Channel</a>
+    </div>
+    <div class="column">
+      <h4>More</h4>
+      <a href="contact.html">Contact Me</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+    </div>
+  </footer>
+
+  <div class="copyright">
+    Copright © 2024 R.S Design. All Rights Reserved.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
